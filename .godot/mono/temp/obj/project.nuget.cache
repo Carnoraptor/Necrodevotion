@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bEfD0VYiiDXBmsS+cyUImXfIyAMf2/fh8HEYGOMVYRxAubO4m21lGSyreKfxhLsdpKkRclkjF7B+MpaoHYDa1Q==",
+  "success": true,
+  "projectFilePath": "D:\\Necrodevotion\\Necrodevotion-main\\Necrodevotion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zlind\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\zlind\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\zlind\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

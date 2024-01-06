@@ -1,0 +1,34 @@
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\bin\Debug\Necrodevotion.deps.json
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\bin\Debug\Necrodevotion.runtimeconfig.json
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\bin\Debug\Necrodevotion.dll
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\bin\Debug\Necrodevotion.pdb
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.csproj.AssemblyReference.cache
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.GeneratedMSBuildEditorConfig.editorconfig
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.AssemblyInfoInputs.cache
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.AssemblyInfo.cs
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.csproj.CoreCompileInputs.cache
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.csproj.CopyComplete
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.dll
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\refint\Necrodevotion.dll
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.pdb
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.genruntimeconfig.cache
+D:\ND Backup\Necrodevotion-main\.godot\mono\temp\obj\Debug\ref\Necrodevotion.dll
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\bin\Debug\Necrodevotion.deps.json
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\bin\Debug\Necrodevotion.runtimeconfig.json
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\bin\Debug\Necrodevotion.dll
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\bin\Debug\Necrodevotion.pdb
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.csproj.AssemblyReference.cache
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.AssemblyInfoInputs.cache
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.AssemblyInfo.cs
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.csproj.CoreCompileInputs.cache
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.csproj.CopyComplete
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.dll
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\refint\Necrodevotion.dll
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.pdb
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\Necrodevotion.genruntimeconfig.cache
+D:\Necrodevotion\Necrodevotion-main\.godot\mono\temp\obj\Debug\ref\Necrodevotion.dll

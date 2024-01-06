@@ -1,0 +1,72 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtvj2rcr6scxo"]
+
+[ext_resource type="Texture2D" uid="uid://c6ehmp6j4jmow" path="res://Art/TooltipBG.png" id="1_dltm1"]
+[ext_resource type="FontVariation" uid="uid://demlpooysshio" path="res://PSSC.tres" id="2_khfw1"]
+[ext_resource type="FontFile" uid="uid://csnwu08o21oji" path="res://alagard.ttf" id="3_w8rx7"]
+
+[node name="Tooltip" type="Control"]
+z_index = 9
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.415, 0.415)
+
+[node name="TooltipBackground" type="Sprite2D" parent="."]
+position = Vector2(173, 87)
+scale = Vector2(2.7, 2.7)
+texture = ExtResource("1_dltm1")
+
+[node name="TooltipTitle" type="Label" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 11.0
+offset_right = 2516.0
+offset_bottom = 395.0
+scale = Vector2(0.086, 0.086)
+theme_override_fonts/font = ExtResource("2_khfw1")
+theme_override_font_sizes/font_size = 221
+text = "Bloodstain IV"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="TooltipTopRight" type="Label" parent="."]
+layout_mode = 0
+offset_left = 219.0
+offset_top = 11.0
+offset_right = 2137.0
+offset_bottom = 297.0
+scale = Vector2(0.061, 0.061)
+theme_override_colors/font_color = Color(0.839216, 0.635294, 0.341176, 1)
+theme_override_fonts/font = ExtResource("2_khfw1")
+theme_override_font_sizes/font_size = 176
+text = "1 Quintillion Dv"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="TooltipDescription" type="Label" parent="."]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 56.0
+offset_right = 2305.0
+offset_bottom = 459.0
+scale = Vector2(0.139, 0.139)
+theme_override_font_sizes/font_size = 66
+text = "Output of altars is doubled!"
+
+[node name="TooltipFlavor" type="Label" parent="."]
+layout_mode = 0
+offset_left = 15.0
+offset_top = 114.0
+offset_right = 2324.0
+offset_bottom = 459.0
+scale = Vector2(0.139, 0.139)
+theme_override_colors/font_color = Color(1, 1, 1, 0.764706)
+theme_override_fonts/font = ExtResource("3_w8rx7")
+theme_override_font_sizes/font_size = 76
+text = "Flavor text! Flavor text! Flavor text! Flavor text! Flavor text! Flavor text! Flavor text! Flavor text! Flavor text! "
+horizontal_alignment = 1
+autowrap_mode = 3

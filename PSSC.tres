@@ -1,0 +1,9 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://demlpooysshio"]
+
+[ext_resource type="FontFile" uid="uid://bvxkp3mqpsgol" path="res://Pixel Sans Serif Condensed.ttf" id="1_r37ju"]
+
+[resource]
+base_font = ExtResource("1_r37ju")
+opentype_features = {
+1667329140: 0
+}
