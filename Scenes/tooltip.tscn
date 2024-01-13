@@ -23,7 +23,7 @@ texture = ExtResource("1_dltm1")
 layout_mode = 0
 offset_left = 16.0
 offset_top = 11.0
-offset_right = 2516.0
+offset_right = 3725.0
 offset_bottom = 395.0
 scale = Vector2(0.086, 0.086)
 theme_override_fonts/font = ExtResource("2_khfw1")
@@ -34,16 +34,16 @@ autowrap_mode = 2
 
 [node name="TooltipTopRight" type="Label" parent="."]
 layout_mode = 0
-offset_left = 219.0
-offset_top = 11.0
-offset_right = 2137.0
-offset_bottom = 297.0
+offset_left = 147.0
+offset_top = 12.0
+offset_right = 3211.0
+offset_bottom = 298.0
 scale = Vector2(0.061, 0.061)
 theme_override_colors/font_color = Color(0.839216, 0.635294, 0.341176, 1)
 theme_override_fonts/font = ExtResource("2_khfw1")
 theme_override_font_sizes/font_size = 176
 text = "1 Quintillion Dv"
-horizontal_alignment = 1
+horizontal_alignment = 2
 vertical_alignment = 1
 autowrap_mode = 2
 
@@ -54,8 +54,9 @@ offset_top = 56.0
 offset_right = 2305.0
 offset_bottom = 459.0
 scale = Vector2(0.139, 0.139)
-theme_override_font_sizes/font_size = 66
+theme_override_font_sizes/font_size = 80
 text = "Output of altars is doubled!"
+autowrap_mode = 3
 
 [node name="TooltipFlavor" type="Label" parent="."]
 layout_mode = 0

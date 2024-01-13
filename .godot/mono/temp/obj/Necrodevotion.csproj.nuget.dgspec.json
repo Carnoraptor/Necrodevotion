@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Necrodevotion\\Necrodevotion-main\\Necrodevotion.csproj": {}
+    "D:\\Necrodevotion\\Necrodevotion\\Necrodevotion.csproj": {}
   },
   "projects": {
-    "D:\\Necrodevotion\\Necrodevotion-main\\Necrodevotion.csproj": {
+    "D:\\Necrodevotion\\Necrodevotion\\Necrodevotion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Necrodevotion\\Necrodevotion-main\\Necrodevotion.csproj",
+        "projectUniqueName": "D:\\Necrodevotion\\Necrodevotion\\Necrodevotion.csproj",
         "projectName": "Necrodevotion",
-        "projectPath": "D:\\Necrodevotion\\Necrodevotion-main\\Necrodevotion.csproj",
+        "projectPath": "D:\\Necrodevotion\\Necrodevotion\\Necrodevotion.csproj",
         "packagesPath": "C:\\Users\\zlind\\.nuget\\packages\\",
-        "outputPath": "D:\\Necrodevotion\\Necrodevotion-main\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "D:\\Necrodevotion\\Necrodevotion\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zlind\\AppData\\Roaming\\NuGet\\NuGet.Config"

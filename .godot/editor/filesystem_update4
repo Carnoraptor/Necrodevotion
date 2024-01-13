@@ -1,8 +1,1 @@
 res://Scenes/Main.tscn
-res://Scenes/tooltip.tscn
-res://Scripts/UpgradeManager.cs
-res://Scripts/CultNameGenerator.cs
-res://Scripts/GameManager.cs
-res://Scripts/help.cs
-res://Scripts/TheButton.cs
-res://Scripts/UpgradeButton.cs

@@ -47,15 +47,16 @@ script = ExtResource("5_1yt70")
 
 [node name="DevotionCounter" type="Label" parent="."]
 layout_mode = 0
-offset_left = 790.0
-offset_top = 31.0
-offset_right = 17393.0
-offset_bottom = 2283.0
+offset_left = 779.0
+offset_top = 3.0
+offset_right = 30974.0
+offset_bottom = 9127.0
 scale = Vector2(0.0123529, 0.0140287)
 theme_override_font_sizes/font_size = 1651
 text = "You Have X Devotion"
 horizontal_alignment = 1
 vertical_alignment = 1
+autowrap_mode = 3
 
 [node name="TextureRect" type="TextureRect" parent="."]
 z_index = -3

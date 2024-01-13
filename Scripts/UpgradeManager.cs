@@ -130,9 +130,17 @@ public partial class UpgradeManager : Node
 	GetNode("/root/root/UpgradeButtons").AddChild(button);
 	button.LoadUpgradeIdentity(ug);
 	upgradeButtons.Add(button);
-	int x = ((upgradeButtons.Count % 6) * 32) - 28;
-	float y = (Mathf.Floor((float)upgradeButtons.Count / 7f)) + 6.45f;
-	button.Position = new Vector2(x * 2, y * 25);
+	int x = ((upgradeButtons.Count % 6) * 32);
+	float y = (Mathf.Floor((float)upgradeButtons.Count / 6f)) + 2.55f;
+	if (y > 2 && y < 3)
+	{
+		x -= 18;
+	}
+	else
+	{
+		x += 14;
+	}
+	button.Position = new Vector2(x * 2, (y * 64) + 15);
 	}
 }
 
@@ -439,3 +447,289 @@ public class TempleProductionV : Upgrade
 		Stats.devotionPerSecond += Stats.templeOutput * Stats.templeNum;
 	}
 }
+
+public class LibraryProductionI : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration I";
+		upgradeText = "Your libraries produce twice as much Devotion.";
+		upgradeTip = "Daily rituals to bless the library improve favor and efficiency, leading to increased devotion production.";
+		upgradePrice = 600;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/LibraryUG1Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.libraryNum >= 10)
+		{
+			GD.Print("agh");
+			return true;
+		}
+		GD.Print("wop");
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.libraryOutput * Stats.libraryNum;
+		Stats.libraryOutput *= 2;
+		Stats.devotionPerSecond += Stats.libraryOutput * Stats.libraryNum;
+	}
+}
+
+public class LibraryProductionII : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration II";
+		upgradeText = "Your libraries produce twice as much Devotion.";
+		upgradeTip = "Mass distribution of religious substance creates a veritable sphere of influence.";
+		upgradePrice = 2400;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/LibraryUG2Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.libraryNum >= 20)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.libraryOutput * Stats.libraryNum;
+		Stats.libraryOutput *= 2;
+		Stats.devotionPerSecond += Stats.libraryOutput * Stats.libraryNum;
+	}
+}
+
+public class LibraryProductionIII : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration III";
+		upgradeText = "Your libraries produce twice as much Devotion.";
+		upgradeTip = "Specific border-based sacrifice creates an intense aura of zeal.";
+		upgradePrice = 16000;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/LibraryUG3Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.libraryNum >= 30)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.libraryOutput * Stats.libraryNum;
+		Stats.libraryOutput *= 2;
+		Stats.devotionPerSecond += Stats.libraryOutput * Stats.libraryNum;
+	}
+}
+
+public class LibraryProductionIV : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration IV";
+		upgradeText = "Your libraries produce twice as much Devotion.";
+		upgradeTip = "Constant human sacrifice accelerates prayer and strengthens extraplanar connection.";
+		upgradePrice = 48000;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/LibraryUG4Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.libraryNum >= 40)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.libraryOutput * Stats.libraryNum;
+		Stats.libraryOutput *= 2;
+		Stats.devotionPerSecond += Stats.libraryOutput * Stats.libraryNum;
+	}
+}
+
+public class LibraryProductionV : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration V";
+		upgradeText = "Your libraries produce twice as much Devotion.";
+		upgradeTip = "Ultraconcentrated mass blessing enables direct transmission of god-essence and thus direct worship.";
+		upgradePrice = 200000;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/LibraryUG5Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.libraryNum >= 50)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.libraryOutput * Stats.libraryNum;
+		Stats.libraryOutput *= 2;
+		Stats.devotionPerSecond += Stats.libraryOutput * Stats.libraryNum;
+	}
+}
+
+
+public class ComplexProductionI : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration I";
+		upgradeText = "Your complexes produce twice as much Devotion.";
+		upgradeTip = "Daily rituals to bless the complex improve favor and efficiency, leading to increased devotion production.";
+		upgradePrice = 600;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/ComplexUG1Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.complexNum >= 10)
+		{
+			GD.Print("agh");
+			return true;
+		}
+		GD.Print("wop");
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.complexOutput * Stats.complexNum;
+		Stats.complexOutput *= 2;
+		Stats.devotionPerSecond += Stats.complexOutput * Stats.complexNum;
+	}
+}
+
+public class ComplexProductionII : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration II";
+		upgradeText = "Your complexes produce twice as much Devotion.";
+		upgradeTip = "Mass distribution of religious substance creates a veritable sphere of influence.";
+		upgradePrice = 2400;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/ComplexUG2Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.complexNum >= 20)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.complexOutput * Stats.complexNum;
+		Stats.complexOutput *= 2;
+		Stats.devotionPerSecond += Stats.complexOutput * Stats.complexNum;
+	}
+}
+
+public class ComplexProductionIII : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration III";
+		upgradeText = "Your complexes produce twice as much Devotion.";
+		upgradeTip = "Specific border-based sacrifice creates an intense aura of zeal.";
+		upgradePrice = 16000;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/ComplexUG3Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.complexNum >= 30)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.complexOutput * Stats.complexNum;
+		Stats.complexOutput *= 2;
+		Stats.devotionPerSecond += Stats.complexOutput * Stats.complexNum;
+	}
+}
+
+public class ComplexProductionIV : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration IV";
+		upgradeText = "Your complexes produce twice as much Devotion.";
+		upgradeTip = "Constant human sacrifice accelerates prayer and strengthens extraplanar connection.";
+		upgradePrice = 48000;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/ComplexUG4Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.complexNum >= 40)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.complexOutput * Stats.complexNum;
+		Stats.complexOutput *= 2;
+		Stats.devotionPerSecond += Stats.complexOutput * Stats.complexNum;
+	}
+}
+
+public class ComplexProductionV : Upgrade
+{
+	public override void LoadUpgrade()
+	{
+		upgradeName = "Consecration V";
+		upgradeText = "Your complexes produce twice as much Devotion.";
+		upgradeTip = "Ultraconcentrated mass blessing enables direct transmission of god-essence and thus direct worship.";
+		upgradePrice = 200000;
+		upgradeIcon = GD.Load<Texture2D>("res://Art/UpgradeIcons/ComplexUG5Box.png");
+	}
+	
+	public override bool isAvailable()
+	{
+		if (Stats.complexNum >= 50)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public override void UpgradeEffect()
+	{
+		Stats.devotionPerSecond -= Stats.complexOutput * Stats.complexNum;
+		Stats.complexOutput *= 2;
+		Stats.devotionPerSecond += Stats.complexOutput * Stats.complexNum;
+	}
+}
+
